@@ -74,9 +74,9 @@ public class EnviadorBlocosAleatorios {
             for (int i = 0; i < 5; i++) { // percorre metade dos 10 quadros necessários pra preencher a tela (1366 / 136)      
                
         
-                posX = varX; // poder sortear um local da tela sem sair dela
-                posY = yPos + varY; // poder sortear um local da tela sem sair dela                                  
-                varX = varX + 136;    
+                posX = varX; // calcula posicao de x
+                posY = yPos + varY; // calcula posicao de Y que é incrementado ao final do for                                  
+                varX = varX + 136;  // incrementa um bloco para x
               
               
                 // arqui poderia ser lancado uma Thread
